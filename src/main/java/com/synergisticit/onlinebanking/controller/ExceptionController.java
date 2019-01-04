@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.synergisticit.onlinebanking.domain.ExceptionResponse;
 
-@ControllerAdvice   //handles exception throughout the whole application
+@ControllerAdvice   //handles exception throughout the whole application 
 public class ExceptionController {
 	
 //	@ExceptionHandler  //works at method level exception

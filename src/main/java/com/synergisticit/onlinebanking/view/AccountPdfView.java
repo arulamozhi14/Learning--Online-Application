@@ -31,6 +31,7 @@ public class AccountPdfView extends AbstractPdfView{
 		Table table = new Table(6);
 		Cell cell = new Cell("accno");
 		table.addCell(cell);
+	
 		
 		cell = new Cell("accType");
 		table.addCell(cell);

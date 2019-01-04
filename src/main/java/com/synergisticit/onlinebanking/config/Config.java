@@ -167,9 +167,9 @@ public class Config {
 		
 	}
 	
-
+//message source is used used for validation
 	@Bean
-	public MessageSource messageSource(){
+	public MessageSource messageSource(){  
 		ReloadableResourceBundleMessageSource source=new ReloadableResourceBundleMessageSource();
 		source.setBasenames("/WEB-INF/messages/validation");
 		source.setFallbackToSystemLocale(true);

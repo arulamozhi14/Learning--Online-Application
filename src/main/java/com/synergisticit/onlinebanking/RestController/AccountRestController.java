@@ -37,7 +37,7 @@ public class AccountRestController {
 		accountServiceJpa.save(acc);
 		return new ResponseEntity<String>(HttpStatus.OK);
 	}
-	
+	//Delete mapping not support because of spring security
 	@DeleteMapping(value="/delete/{accno}",produces=MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<String> deleteaccount(@PathVariable long accno){
 		accountServiceJpa.deleteById(accno);
