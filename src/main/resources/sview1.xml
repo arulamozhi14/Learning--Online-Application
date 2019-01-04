@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="accountPdfView" class="com.synergisticit.onlinebanking.view.AccountPdfView"/>
+	<bean id="accountExcelView" class= "com.synergisticit.onlinebanking.view.AccountExcelView"/>	
+	<bean id="accountCsvView" class="com.synergisticit.onlinebanking.view.AccountCsvView"/> 
+</beans>
